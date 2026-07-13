@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dedjoun Fodjou Mbou Vanick Perex | Ingénieur Systèmes &amp; Réseaux · Développeur Backend</title>
+<meta name="description" content="Portfolio de Dedjoun Fodjou Mbou Vanick Perex, Ingénieur Informatique, Développeur Backend & Administrateur Systèmes et Réseaux basé à Yaoundé, Cameroun.">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/img/profil.png" type="image/png">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- AOS (Animate on Scroll) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="loader"></div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#accueil">
+      <span class="brand-mark">DF</span><span class="brand-text">Vanick<span class="text-gold">.</span></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-gold-outline btn-sm" href="assets/cv/CV-Dedjoun-Fodjou-Mbou-Vanick-Perex.pdf" download>
+            <i class="bi bi-download me-1"></i>CV
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header id="accueil" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="row align-items-center">
+      <div class="col-lg-7" data-aos="fade-right" data-aos-duration="900">
+        <p class="hero-hello"><i class="bi bi-terminal me-2"></i>Bonjour, je suis</p>
+        <h1 class="hero-name">Dedjoun Fodjou Mbou<br><span class="text-gold">Vanick Perex</span></h1>
+        <h2 class="hero-role">
+          <span id="typed-role"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-quote">
+          <i class="bi bi-quote"></i>
+          Concevoir des solutions digitales fiables, sécurisées et évolutives qui créent de la valeur.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#contact" class="btn btn-gold btn-lg"><i class="bi bi-envelope-fill me-2"></i>Me contacter</a>
+          <a href="assets/cv/CV-Dedjoun-Fodjou-Mbou-Vanick-Perex.pdf" download class="btn btn-outline-light btn-lg">
+            <i class="bi bi-download me-2"></i>Télécharger le CV
+          </a>
+        </div>
+        <div class="d-flex gap-3 mt-4 hero-socials">
+          <a href="mailto:dedjounvanickperex@gmail.com" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="tel:+237690526831" title="Téléphone"><i class="bi bi-telephone"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center mt-5 mt-lg-0" data-aos="fade-left" data-aos-duration="900">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-ring"></div>
+          <img src="assets/img/profil.png" alt="Dedjoun Fodjou Mbou Vanick Perex" class="hero-photo">
+          <div class="floating-badge badge-top"><i class="bi bi-hdd-network"></i> Réseaux &amp; Systèmes</div>
+          <div class="floating-badge badge-bottom"><i class="bi bi-code-slash"></i> Backend Java</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#apropos" class="scroll-down" aria-label="Défiler vers le bas"><i class="bi bi-chevron-down"></i></a>
+</header>
+
+<!-- ===== ABOUT ===== -->
+<section id="apropos" class="section">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <span class="tag">Présentation</span>
+      <h2>À propos de moi</h2>
+    </div>
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="about-photo-wrap">
+          <img src="assets/img/profil.png" alt="Vanick Perex" class="about-photo">
+          <div class="about-photo-frame"></div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left">
+        <h3 class="mb-3">Ingénieur Informatique · Développeur Backend · Business Analyst</h3>
+        <p class="text-body-secondary">
+          Ingénieur informaticien avec plus de <strong>4 ans d'expérience</strong>, spécialisé en développement
+          backend et intégration de systèmes bancaires. Acteur clé du projet <strong>TEFO BANK</strong> au
+          PKFOKAM Research Center, j'interviens à la fois comme développeur backend et business analyst sur des
+          modules critiques : gestion des comptes, crédits, virements et onboarding clients (KYC). J'ai également
+          contribué à l'intégration de partenaires fintech multi-pays (Cameroun, Côte d'Ivoire, Guinée, Liberia,
+          Soudan du Sud).
+        </p>
+        <p class="text-body-secondary">
+          Doté d'une solide maîtrise des environnements <strong>Java, PostgreSQL</strong> et des outils de
+          collaboration IT (Git, JIRA), je combine rigueur dans l'analyse fonctionnelle, sens du détail en
+          développement et capacité d'adaptation face à des contextes techniques variés. Mon parcours me permet
+          d'intervenir efficacement comme <strong>pont entre les équipes métier et les équipes techniques</strong>.
+        </p>
+
+        <div class="row g-3 my-4">
+          <div class="col-6 col-md-3">
+            <div class="mini-stat">
+              <h3>4+</h3>
+              <p>Ans d'expérience</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="mini-stat">
+              <h3>5</h3>
+              <p>Pays intégrés</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="mini-stat">
+              <h3>2</h3>
+              <p>Core Banking Systems</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="mini-stat">
+              <h3>15%</h3>
+              <p>Croissance clientèle</p>
+            </div>
+          </div>
+        </div>
+
+        <ul class="info-list list-unstyled">
+          <li><i class="bi bi-geo-alt-fill"></i> Yaoundé, Cameroun</li>
+          <li><i class="bi bi-envelope-fill"></i> dedjounvanickperex@gmail.com</li>
+          <li><i class="bi bi-telephone-fill"></i> +237 690 526 831 / +237 654 243 027</li>
+          <li><i class="bi bi-cake2-fill"></i> Né le 16 Septembre 2000</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Domaines de compétence -->
+    <div class="row g-4 mt-5">
+      <div class="col-12" data-aos="fade-up">
+        <h4 class="text-center mb-4">Domaines de compétence</h4>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="0">
+        <div class="domain-card">
+          <i class="bi bi-code-square"></i>
+          <p>Développement Backend</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="50">
+        <div class="domain-card">
+          <i class="bi bi-clipboard-data"></i>
+          <p>Analyse Fonctionnelle &amp; BA</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+        <div class="domain-card">
+          <i class="bi bi-bank"></i>
+          <p>Intégration Core Banking</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="150">
+        <div class="domain-card">
+          <i class="bi bi-kanban"></i>
+          <p>Gestion de Projets IT</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+        <div class="domain-card">
+          <i class="bi bi-hdd-network"></i>
+          <p>Admin Systèmes &amp; Réseaux</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="250">
+        <div class="domain-card">
+          <i class="bi bi-cash-coin"></i>
+          <p>Fintech &amp; Digital Banking</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMPETENCES ===== -->
+<section id="competences" class="section section-alt">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <span class="tag">Savoir-faire</span>
+      <h2>Compétences techniques</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+          <h5>Langages</h5>
+          <div class="tag-list">
+            <span>Java</span><span>PHP</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-database"></i></div>
+          <h5>Bases de données</h5>
+          <div class="tag-list">
+            <span>PostgreSQL</span><span>MySQL</span><span>Oracle</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-tools"></i></div>
+          <h5>IDEs &amp; Outils Dev</h5>
+          <div class="tag-list">
+            <span>IntelliJ IDEA</span><span>Eclipse</span><span>VS Code</span><span>NetBeans</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-git"></i></div>
+          <h5>Versionning &amp; Gestion</h5>
+          <div class="tag-list">
+            <span>Git</span><span>JIRA</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-hdd-network"></i></div>
+          <h5>Réseaux &amp; Monitoring</h5>
+          <div class="tag-list">
+            <span>Wireshark</span><span>OpManager</span><span>SolarWinds</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="bi bi-people"></i></div>
+          <h5>Collaboration</h5>
+          <div class="tag-list">
+            <span>Microsoft Teams</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12" data-aos="fade-up">
+        <div class="skill-card skill-card-wide">
+          <div class="skill-icon"><i class="bi bi-bank2"></i></div>
+          <h5>Core Banking</h5>
+          <div class="tag-list">
+            <span>ABS2000</span><span>TEFO BANK</span><span>Intégration CBS</span><span>SARA MONEY / SARA V2</span><span>Internet Banking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Langues & Loisirs -->
+    <div class="row g-4 mt-2">
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="info-card">
+          <h5><i class="bi bi-translate me-2"></i>Langues</h5>
+          <div class="d-flex justify-content-between mb-1"><span>Français</span><span class="text-gold">Langue maternelle</span></div>
+          <div class="progress custom-progress mb-3"><div class="progress-bar" style="width:100%"></div></div>
+          <div class="d-flex justify-content-between mb-1"><span>Anglais</span><span class="text-gold">Débutant</span></div>
+          <div class="progress custom-progress"><div class="progress-bar" style="width:30%"></div></div>
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="50">
+        <div class="info-card">
+          <h5><i class="bi bi-heart me-2"></i>Loisirs &amp; Sports</h5>
+          <p class="mb-2"><strong>Passion :</strong> Lecture, Voyage, Sport</p>
+          <p class="mb-0"><strong>Pratiqué :</strong> Natation, Karaté</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <span class="tag">Parcours</span>
+      <h2>Expérience professionnelle</h2>
+    </div>
+
+    <div class="timeline">
+
+      <!-- TEFO BANK -->
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date"><i class="bi bi-calendar3 me-1"></i>Juillet 2024 – Aujourd'hui</span>
+          <h4>Développeur Backend &amp; Business Analyst</h4>
+          <p class="timeline-company">PKFOKAM Research Center — Projet TEFO BANK · Yaoundé, Cameroun</p>
+
+          <div class="module-badges">
+            <span><i class="bi bi-wallet2"></i> Comptes &amp; transactions</span>
+            <span><i class="bi bi-cash-stack"></i> Crédits / prêts</span>
+            <span><i class="bi bi-arrow-left-right"></i> Virements &amp; paiements</span>
+            <span><i class="bi bi-person-badge"></i> KYC / Onboarding</span>
+          </div>
+
+          <div class="accordion custom-accordion mt-3" id="tefoAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cb1">
+                  Core Banking – TEFO BANK
+                </button>
+              </h2>
+              <div id="cb1" class="accordion-collapse collapse" data-bs-parent="#tefoAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li><strong>Analyse des besoins :</strong> recueil et formalisation des exigences fonctionnelles et techniques des modules bancaires (comptes, crédits, virements, KYC) avec les équipes métier.</li>
+                    <li><strong>Conception &amp; modélisation :</strong> rédaction des spécifications fonctionnelles (SFD), modélisation des flux et processus métier pour chaque module du CBS.</li>
+                    <li><strong>Développement backend :</strong> implémentation des fonctionnalités du core bancaire TEFO BANK (comptes &amp; transactions, crédit/prêt, virements &amp; paiements, KYC/Onboarding).</li>
+                    <li><strong>Tests &amp; recette :</strong> définition des cas de test, participation aux phases de recette fonctionnelle et validation des livrables.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cb2">
+                  Fintech – Interopérabilité &amp; Paiements
+                </button>
+              </h2>
+              <div id="cb2" class="accordion-collapse collapse" data-bs-parent="#tefoAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li><strong>Analyse des besoins :</strong> étude des exigences pour l'interopérabilité des systèmes de paiement.</li>
+                    <li><strong>Assistance &amp; maintenance :</strong> suivi des performances des APIs, correction de bugs, amélioration continue des services financiers.</li>
+                    <li><strong>Nouvelle implémentation :</strong> développement et intégration d'APIs pour l'interopérabilité avec SARA MONEY (Cameroun, Côte d'Ivoire, Guinée).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cb3">
+                  Digital Banking – Intégration Multi-pays
+                </button>
+              </h2>
+              <div id="cb3" class="accordion-collapse collapse" data-bs-parent="#tefoAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li><strong>Analyse des besoins :</strong> identification des solutions techniques pour l'intégration des plateformes bancaires numériques.</li>
+                    <li><strong>Assistance &amp; maintenance :</strong> support technique et optimisation des échanges entre systèmes bancaires et partenaires externes.</li>
+                    <li><strong>Nouvelle implémentation :</strong> intégration des systèmes SARA V2, Internet Banking et partenaires en Côte d'Ivoire, Soudan du Sud, Liberia et Guinée.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cb4">
+                  Core Banking ABS2000 – Côte d'Ivoire
+                </button>
+              </h2>
+              <div id="cb4" class="accordion-collapse collapse" data-bs-parent="#tefoAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li><strong>Analyse des besoins :</strong> étude des exigences pour l'amélioration des systèmes bancaires existants.</li>
+                    <li><strong>Assistance &amp; maintenance :</strong> support technique, correction des anomalies, amélioration continue.</li>
+                    <li><strong>Nouvelle implémentation :</strong> développement et intégration de nouvelles fonctionnalités sur le CBS ABS2000.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Champion Security -->
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date"><i class="bi bi-calendar3 me-1"></i>Janvier 2020 – Juillet 2024</span>
+          <h4>Ingénieur Informaticien</h4>
+          <p class="timeline-company">Champion Security SARL · Yaoundé, Cameroun</p>
+
+          <div class="row g-3 mt-1">
+            <div class="col-md-6">
+              <div class="sub-card">
+                <h6><i class="bi bi-hdd-network me-2"></i>Systèmes &amp; Réseaux</h6>
+                <ul>
+                  <li>Étude des exigences en infrastructure réseau pour une communication efficace entre équipements.</li>
+                  <li>Surveillance et optimisation des performances réseau, diagnostic et résolution des incidents.</li>
+                  <li>Conception et déploiement d'un réseau de communication garantissant une connectivité stable et sécurisée.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sub-card">
+                <h6><i class="bi bi-megaphone me-2"></i>Marketing Digital</h6>
+                <ul>
+                  <li>Définition des stratégies de communication digitale adaptées aux objectifs de l'entreprise.</li>
+                  <li>Gestion et mise à jour des comptes digitaux pour une présence en ligne efficace.</li>
+                  <li>Création de supports visuels et campagnes marketing : <strong>+15% de clientèle</strong>.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FORMATION ===== -->
+<section id="formation" class="section section-alt">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <span class="tag">Académique</span>
+      <h2>Formation</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3" data-aos="fade-up">
+        <div class="edu-card">
+          <i class="bi bi-mortarboard-fill"></i>
+          <span class="edu-date">Nov. 2022 – Juin 2024</span>
+          <h5>Master's Degree — Information Systems &amp; Networking</h5>
+          <p>Option Systèmes &amp; Réseaux<br>ICT University, Cameroun</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="edu-card">
+          <i class="bi bi-mortarboard-fill"></i>
+          <span class="edu-date">Sept. 2019 – Sept. 2022</span>
+          <h5>Diplôme d'Ingénieur des Travaux Informatiques</h5>
+          <p>Option Systèmes &amp; Réseaux<br>Institut Africain d'Informatique, Cameroun</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="edu-card">
+          <i class="bi bi-mortarboard-fill"></i>
+          <span class="edu-date">Sept. 2019 – Sept. 2021</span>
+          <h5>DTS — Diplôme de Technicien Supérieur</h5>
+          <p>Option Systèmes &amp; Réseaux<br>Institut Africain d'Informatique, Cameroun</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <div class="edu-card">
+          <i class="bi bi-mortarboard-fill"></i>
+          <span class="edu-date">Sept. 2018 – Juin 2019</span>
+          <h5>Baccalauréat Scientifique, Série TI</h5>
+          <p>Lycée Bilingue<br>Yaoundé, Cameroun</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <span class="tag">Contact</span>
+      <h2>Discutons de votre projet</h2>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <p class="text-body-secondary mb-4">
+          Disponible pour des missions en développement backend, intégration de systèmes bancaires,
+          ou administration systèmes &amp; réseaux. N'hésitez pas à me contacter.
+        </p>
+        <div class="contact-item">
+          <i class="bi bi-envelope-fill"></i>
+          <div>
+            <span>Email</span>
+            <a href="mailto:dedjounvanickperex@gmail.com">dedjounvanickperex@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="bi bi-telephone-fill"></i>
+          <div>
+            <span>Téléphone</span>
+            <a href="tel:+237690526831">+237 690 526 831</a> / <a href="tel:+237654243027">+237 654 243 027</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="bi bi-geo-alt-fill"></i>
+          <div>
+            <span>Localisation</span>
+            <p class="mb-0">Yaoundé, Cameroun</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-left">
+        <form class="contact-form" id="contactForm" action="mailto:dedjounvanickperex@gmail.com" method="POST" enctype="text/plain">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Votre nom" name="nom" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="Votre email" name="email" required>
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Sujet" name="sujet">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="5" placeholder="Votre message" name="message" required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-gold btn-lg"><i class="bi bi-send-fill me-2"></i>Envoyer le message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-6">
+        <p class="mb-0">&copy; <span id="year"></span> Dedjoun Fodjou Mbou Vanick Perex. Tous droits réservés.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <div class="footer-socials">
+          <a href="mailto:dedjounvanickperex@gmail.com"><i class="bi bi-envelope"></i></a>
+          <a href="tel:+237690526831"><i class="bi bi-telephone"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#accueil" class="back-to-top" id="backToTop" aria-label="Retour en haut"><i class="bi bi-arrow-up"></i></a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
